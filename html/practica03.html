@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/p03.css">
+    <title>Pre Examen 2</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Index</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+
+        <h1>Calculo de ganancia</h1>
+
+        <form action="https://formsubmit.co/2023030784@upsin.edu.mx" method="post">
+
+            <label for="numProducto">Numero del producto</label>
+            <input type="text" name="Numero del producto" id="numProducto" required>
+
+            <label for="nomProducto">Nombre del producto</label>
+            <input type="text" name="Nombre del producto" id="nomProducto" required>
+
+            <label for="precioVenta">Precio de venta</label>
+            <input type="number" name="Precio de venta" id="precioVenta" required>
+
+            <label for="precioCompra">Precio de compra</label>
+            <input type="number" name="Precio de compra" id="precioCompra" required>
+
+            <label for="cantProducto">Cantidad de producto</label>
+            <input type="number" name="Cantidad de producto" id="cantProducto" required>
+
+            <label for="medida">Medida</label>
+            <select name="Unidad de medida" id="medida" required> 
+                <option value="Pz">Piezas</option>
+                <option value="L">Litros</option>
+                <option value="Kg">Kilogramos</option>
+            </select>
+
+            <label for="totalCompras">Total de compras</label>
+            <input type="number" id="totalCompras" name="Total compra">
+
+            <label for="totalVentas">Total de ventas</label>
+            <input type="number" id="totalVentas" name="Total ventas">
+
+            <label for="ganancia">Ganancia</label>
+            <input type="number" id="ganancia" name="Ganancia">
+
+            <div class="botones">
+                <button id="calcularBtn" type="button">Calcular</button>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </div>
+
+
+        </form>
+    </section>
+</body>
+<script src="../js/practica03.js"></script>
+</html>
