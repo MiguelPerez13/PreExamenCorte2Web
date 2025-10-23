@@ -34,7 +34,19 @@ const inicializar = async()=> {
     })
     
     let presionPromedio = presionTotal / dias;
-    promedio.innerText = `Promedio de presion arterial ${presionPromedio}`;
+    let estado = "";
+
+    if(presionPromedio < 120){
+        estado = 'Normal';
+    }else if(presionPromedio < 130){
+        estado = 'Elevada'
+    }else{
+        estado = 'Alta';
+    }
+
+    promedio.innerText = `Promedio de presion arterial ${presionPromedio}
+    El estado de su presion arterial es ${estado}
+    `;
     
 }
     
