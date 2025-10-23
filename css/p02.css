@@ -31,13 +31,48 @@ nav ul li a:hover{
 }
 
 section{
+    width: 20%;
+    margin: 30px auto;
     text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px 0px rgba(161,161,161,0.75);
+    height: auto;
+    padding: 7px 7px 7px 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+section *{
+    
+    margin-bottom: 10px;
 }
 
 h3{
     margin: 0 auto;
     font-size: 20px;
     text-align: center;
+}
+
+
+
+select{
+    width: 80px;
+}
+
+button{
+    border: 0px solid;
+    border-radius: 4px;
+    padding: 4px 4px 4px 4px;
+    width: 120px;
+    color: white;
+    font-size: 16px;
+    background-color: yellowgreen;
+}
+
+button:hover{
+    background-color: green;
+    font-size: 18px;
 }
 
 
